@@ -1,42 +1,44 @@
+html,
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  height: 100%;
   margin: 0;
-  padding: 20px;
-  color: #252525;
+}
+
+body {
+  align-items: center;
   background-image: url('../images/amz-bg.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-h1 {
   color: #091B38;
-}
-
-h1 p:first-child {
-  font-size: 20px;
-}
-
-h1 p:last-child {
-  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Press Start 2P', sans-serif;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  text-align: center;
 }
 
 header {
-  text-align: center;
-  margin: 40px 0;
+  margin-top: 20px;
 }
 
 header img {
-  max-width: 150px;
   height: auto;
+  max-width: 150px;
 }
 
 main {
-  text-align: left;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   line-height: 1.6;
+  justify-content: center;
+  max-width: 800px;
+  text-align: left;
+  width: 100%;
 }
 
 a {
@@ -49,6 +51,7 @@ a:hover {
 }
 
 footer {
+  margin-bottom: 40px;
   text-align: center;
-  margin: 40px 0;
+  width: 100%;
 }
