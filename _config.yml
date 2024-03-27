@@ -1,0 +1,31 @@
+title: Amazing Apps
+description: Offering bespoke software development services tailored to your business needs.
+baseurl: ""
+url: "http://amz.gg"
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minima
+
+# Jekyll plugins (optional)
+plugins:
+  - jekyll-feed
+
+# Theme-specific settings (this varies by theme)
+# For example, if you're using the "minima" theme:
+jekyll-theme-minima:
+  skin: dark # if your theme supports different skins
+
+# Social media links (optional, supported by many themes)
+twitter_username: amzapps
+github_username:  amzapps
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed here will not be included in the site output.
+exclude:
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
